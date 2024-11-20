@@ -1,0 +1,50 @@
+:root{
+--color-primary: hsl(50, 55%, 85%);
+--color-accent-primary: hsl(45, 80%, 60%);
+--color-accent-secondary: hsl(40, 80%, 30%);
+}
+
+body{
+background:url(background.jpg) ;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+margin: 0px;
+}
+header{
+background-color:var(--color-primary);
+height: 8vh;
+width: 100%;
+position: absolute;
+
+}
+.button{
+height: 8vh;
+width: 10vw;
+vertical-align: middle;
+text-align: center;
+align-items: center;
+line-height: 8vh;
+}
+.flex-box{
+display: flex;
+top: 0px;
+width:30vw;
+left:35vw;
+position:absolute;
+justify-content: space-between;
+}
+.switch{
+position:absolute;
+display: flex;
+justify-content: space-between;
+width: 3vw;
+height: 8vh;
+left: 75vw;
+top: 0px;
+}
+.switchSection{
+text-align: center;
+vertical-align: middle;
+line-height: 8vh;
+}
